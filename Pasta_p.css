@@ -1,0 +1,146 @@
+body {
+    left: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    overflow-y: scroll;
+    cursor: url('new.cur'), auto;
+}
+
+.home {
+    background-image: url(Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 253vh;
+    width:100vw;
+}
+
+#header {
+    width:100vw;
+    height:15vh;
+    background-color: rgba(204,0,0,0.94);
+    display: block;
+    color:#d9d9d9;
+    font-family: 'Centaur','Century',sans-serif;
+    margin: auto;
+}
+
+#title {
+    display: inline-block;
+    font-size: 4em;
+    margin: auto;
+    padding-left: 25vw;
+    vertical-align: middle;
+    line-height: 14vh;
+    text-decoration: none!important;
+}
+
+#title a {
+    text-decoration: none;
+    color: #d9d9d9;
+    cursor: url('fork.cur'), auto;
+}
+
+#opentab {
+    display: inline-block;
+    font-family: 'Century Gothic', 'Candara', 'Calibri Light', 'Gadugi', serif;
+    font-size: 2em;
+    margin:auto;
+    margin-left: 2vw;
+    vertical-align: middle;
+    cursor: url('fork.cur'), auto;
+    padding: 4vh;
+}
+
+.menu {
+    background-color: rgba(217,217,217,0.9);
+    height: 238vh;
+    position: absolute;
+    display: inline-block;
+    width: 20vw;
+    margin-left: -20vw;
+}
+
+.menu li {
+    color: rgba(204,0,0,1);
+    list-style: none;
+    font-family: 'Century Gothic', 'Candara', 'Calibri Light', 'Gadugi', serif;
+    width:18vw;
+    padding: 2vh;
+    margin-left: -2.5vw;
+    border-bottom: 0.25vh solid rgba(204,0,0,1);
+    font-weight: 600;
+    cursor: url('fork.cur'), auto;
+}
+
+.menu li:hover {
+    background-color: rgba(204,0,0,0.9);
+    color: #d9d9d9;
+}
+
+#first{
+    border-top: 0.25vh solid rgba(204,0,0,1);
+}
+
+#container {
+    max-height:4vh;
+    max-width:4vh;
+    padding: 2vh;
+    cursor: url('fork.cur'), auto;
+}
+
+#container img {
+    width: 100%;
+    height: auto;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgba(204,0,0,1);
+}
+
+#recipe {
+    height:230vh;
+    background-color: rgba(54,54,54,0.94);
+    display: inline-block;
+    width:96.1vw;
+    color:#d9d9d9;
+    font-size: 1.5em;
+    font-family: 'Century Gothic', 'Candara', 'Calibri Light', 'Gadugi', serif;
+    text-align: justify;
+    padding: 4vh;
+}
+
+#recipe ul {
+    list-style: circle;
+}
+
+#recipe img {
+    max-height:50vh;
+    max-width: 70vw;
+    float:right;
+    border-radius:0vh 0vh 0vh 2vh;
+    display:block;
+    margin-top:-119vh;
+    margin-right: -4vw;
+    border:1.5vh solid rgba(204,0,0,0.94);
+}
+
+#nutrition th {
+    font-size: 1.2em;
+}
+
+#nutrition table {
+    background-color: rgba(204,0,0,0.8);
+    color: #d9d9d9;
+    padding:1em;
+    width:50vw;
+    height:16vh;
+    border-spacing: 0;
+    text-align: center;
+    border-radius: 1vh;
+}
+
+#nutrition td {
+    border-bottom:1px #d9d9d9 solid;
+}
